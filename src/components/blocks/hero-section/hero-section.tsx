@@ -94,12 +94,12 @@ const HeroSection = ({ menudata }: { menudata: MenuData[] }) => {
         <div className='grid grid-cols-1 gap-6 gap-y-12 md:gap-y-16 lg:grid-cols-5'>
           <div className='flex w-full flex-col justify-center gap-5 max-lg:items-center lg:col-span-3 lg:h-95.5'>
             <h1 className='text-3xl leading-[1.29167] font-semibold text-balance max-lg:text-center sm:text-4xl lg:text-5xl'>
-              Savor the taste of perfection
+              Cada bocado, una sonrisa
             </h1>
 
             <p className='text-muted-foreground max-w-xl text-xl max-lg:text-center'>
-              Welcome to Restaurant where passion meets the plate.From sizzling appetisers to signature desserts, every
-              dish is crafted to delight your senses.
+              Bienvenido a Bistro De Elo, donde la pasión se encuentra en el plato. Desde sabrosos aperitivos hasta el
+              postre, cada plato está elaborado para deleitar tus sentidos.
             </p>
 
             <div className='flex items-center gap-3.5'>
@@ -108,8 +108,8 @@ const HeroSection = ({ menudata }: { menudata: MenuData[] }) => {
                 size='lg'
                 className='group relative w-fit overflow-hidden rounded-full text-base before:absolute before:inset-0 before:rounded-[inherit] before:bg-[linear-gradient(45deg,transparent_25%,rgba(255,255,255,0.5)_50%,transparent_75%,transparent_100%)] before:bg-[length:250%_250%,100%_100%] before:bg-[position:200%_0,0_0] before:bg-no-repeat before:transition-[background-position_0s_ease] before:duration-1000 hover:before:bg-[position:-100%_0,0_0] has-[>svg]:px-6 dark:before:bg-[linear-gradient(45deg,transparent_25%,rgba(0,0,0,0.2)_50%,transparent_75%,transparent_100%)]'
               >
-                <a href='#'>
-                  Order now
+                <a href='https://wa.me/+53XXXXXXXX'>
+                  Ordenar ahora
                   <ArrowRightIcon className='transition-transform duration-200 group-hover:translate-x-0.5' />
                 </a>
               </Button>
@@ -118,7 +118,7 @@ const HeroSection = ({ menudata }: { menudata: MenuData[] }) => {
                 asChild
                 className='bg-primary/10 hover:bg-primary/20 text-primary rounded-full text-base'
               >
-                <a href='#contact-us'>Book table</a>
+                <a href='#contact-us'>Contactar</a>
               </Button>
             </div>
           </div>

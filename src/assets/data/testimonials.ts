@@ -2,31 +2,31 @@ import type { TestimonialItem } from '@/components/blocks/testimonials-section/t
 
 export const testimonials: TestimonialItem[] = [
   {
-    name: 'Craig Bator',
+    name: 'María G.',
     avatar: '/images/hero-section/avatar-01.webp',
-    rating: 4.5,
-    content:
-      "I've been visiting this restaurant for months, and every experience has been amazing! The atmosphere is warm, and the food is always delicious. A must-try for anyone in the area."
-  },
-  {
-    name: 'Martin Dorwart',
-    avatar: '/images/hero-section/avatar-02.webp',
-    rating: 4,
-    content:
-      'If you love authentic dishes made from fresh ingredients, this place is for you. The staff is friendly, and the flavours are spot on. Perfect for any occasion.'
-  },
-  {
-    name: 'Sarah Johnson',
-    avatar: '/images/hero-section/avatar-03.webp',
     rating: 5,
     content:
-      'Delicious food made with care and fresh ingredients. The atmosphere is cozy, and the staff makes you feel right at home. Ideal for casual dinners or special moments.'
+      '¡Increíble! El servicio de catering para mi fiesta familiar fue perfecto. La comida estuvo deliciosa y todos los invitados quedaron felices. ¡Definitivamente volveré a contratarlos!'
   },
   {
-    name: 'Alex Chen',
-    avatar: '/images/hero-section/avatar-04.webp',
+    name: 'Carlos R.',
+    avatar: '/images/hero-section/avatar-02.webp',
+    rating: 5,
+    content:
+      'Las hamburguesas son las mejores que he probado en la zona. Carne fresca, buen pan y un sabor único. Mi familia y yo somos clientes frecuentes.'
+  },
+  {
+    name: 'Ana L.',
+    avatar: '/images/hero-section/avatar-03.webp',
     rating: 4.5,
     content:
-      'Fresh ingredients, balanced flavors, and excellent presentation define this bistro. The staff is polite and always smiling. Perfect for a pleasant dining experience.'
+      'Me encanta la variedad de productos que tienen. Siempre encuentro lo que necesito y la atención es excelente. El pedido por WhatsApp es súper práctico.'
+  },
+  {
+    name: 'Pedro M.',
+    avatar: '/images/hero-section/avatar-04.webp',
+    rating: 5,
+    content:
+      'Los jugos naturales son frescos y deliciosos. También me encanta la comida criolla, tiene ese sabor casero que no encuentras en cualquier lado. ¡Muy recomendado!'
   }
 ]

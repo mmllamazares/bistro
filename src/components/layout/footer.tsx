@@ -12,7 +12,7 @@ const Footer = () => {
         <a href='/#home'>
           <div className='flex items-center gap-3'>
             <BistroLogo className='gap-3' />
-            <span className='text-primary text-[20px] font-semibold'>Bistro</span>
+            <span className='text-primary text-[20px] font-semibold'>Bistro De Elo</span>
           </div>
         </a>
 
@@ -50,9 +50,9 @@ const Footer = () => {
         <p className='text-muted-foreground text-center text-balance'>
           {`©${new Date().getFullYear()}`}{' '}
           <a href='/#home' className='hover:underline'>
-            Bistro
+            Bistro De Elo
           </a>
-          , Made with ❤️ for better web.
+          . Todos los derechos reservados. Hecho con ❤️ para nuestra comunidad.
         </p>
       </div>
     </footer>

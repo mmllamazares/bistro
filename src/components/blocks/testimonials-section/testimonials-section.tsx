@@ -31,16 +31,16 @@ const TestimonialsComponent = ({ testimonials }: TestimonialsComponentProps) => 
         {/* Left Content */}
         <div className='space-y-4 sm:w-1/2 lg:w-1/3'>
           <Badge variant='outline' className='text-sm font-normal'>
-            Testimonials
+            Testimonios
           </Badge>
 
           <h2 className='text-2xl font-semibold sm:text-3xl lg:text-4xl'>
-            Customers <br />
-            Feedback
+            Opiniones de <br />
+            nuestros clientes
           </h2>
 
           <p className='text-muted-foreground text-xl'>
-            Here&apos;s how our customers enjoyed our restaurant and the services we offer.
+            Esto es lo que dicen nuestros clientes sobre Bistro De Elo y el servicio que ofrecemos.
           </p>
 
           <div className='flex items-center gap-4'>

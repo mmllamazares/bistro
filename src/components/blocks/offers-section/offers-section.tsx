@@ -25,13 +25,13 @@ const Gallery = ({ galleryImage }: { galleryImage: GalleryImage }) => {
         {/* Header */}
         <div className='mb-12 space-y-4 text-center sm:mb-16 lg:mb-24'>
           <Badge variant='outline' className='text-sm font-normal'>
-            Offers
+            Promociones
           </Badge>
 
-          <h2 className='text-2xl font-semibold md:text-3xl lg:text-4xl'>Explore our Offerings</h2>
+          <h2 className='text-2xl font-semibold md:text-3xl lg:text-4xl'>Explora nuestras ofertas</h2>
 
           <p className='text-muted-foreground text-xl'>
-            Don&apos;t miss out on the dining experience. Reserve your table and indulge in a culinary journey today.
+            No te pierdas la experiencia gastronómica. Reserva tu pedido y disfruta de un viaje culinario único hoy.
           </p>
         </div>
 

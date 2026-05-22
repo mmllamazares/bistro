@@ -99,7 +99,7 @@ const Header = ({ navigationData, className }: HeaderProps) => {
         {/* Logo */}
         <a href='/#home' className='flex items-center gap-3'>
           <BistroLogo />
-          <span className='text-primary text-[20px] font-semibold'>Bistro</span>
+          <span className='text-primary text-[20px] font-semibold'>Bistro De Elo</span>
         </a>
 
         {/* Navigation */}
@@ -116,7 +116,7 @@ const Header = ({ navigationData, className }: HeaderProps) => {
             className='group relative ml-4 w-fit overflow-hidden rounded-full text-base before:absolute before:inset-0 before:rounded-[inherit] before:bg-[linear-gradient(45deg,transparent_25%,rgba(255,255,255,0.5)_50%,transparent_75%,transparent_100%)] before:bg-[length:250%_250%,100%_100%] before:bg-[position:200%_0,0_0] before:bg-no-repeat before:transition-[background-position_0s_ease] before:duration-1000 hover:before:bg-[position:-100%_0,0_0] has-[>svg]:px-6 max-sm:hidden dark:before:bg-[linear-gradient(45deg,transparent_25%,rgba(0,0,0,0.2)_50%,transparent_75%,transparent_100%)]'
             asChild
           >
-            <a href='#contact-us'>Book table</a>
+            <a href='https://wa.me/+53XXXXXXXX'>Ordenar por WhatsApp</a>
           </Button>
 
           {/* Mobile book table button */}
@@ -124,10 +124,10 @@ const Header = ({ navigationData, className }: HeaderProps) => {
             <Tooltip>
               <TooltipTrigger asChild>
                 <Button className='ml-4 rounded-full sm:hidden' asChild>
-                  <a href='#contact-us'>Book table</a>
+                  <a href='https://wa.me/+53XXXXXXXX'>Ordenar</a>
                 </Button>
               </TooltipTrigger>
-              <TooltipContent>Book table</TooltipContent>
+              <TooltipContent>Ordenar por WhatsApp</TooltipContent>
             </Tooltip>
           </TooltipProvider>
 
@@ -139,7 +139,7 @@ const Header = ({ navigationData, className }: HeaderProps) => {
             trigger={
               <Button variant='outline' size='icon' className='ml-3 rounded-full lg:hidden'>
                 <MenuIcon />
-                <span className='sr-only'>Menu</span>
+                <span className='sr-only'>Menú</span>
               </Button>
             }
           />

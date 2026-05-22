@@ -1,27 +1,20 @@
 <p align="center"></p>
 
 <p align="center">
-   <a href="https://shadcnstudio.com" target="_blank">
-      <img src="https://cdn.shadcnstudio.com/ss-assets/logo/logo.png" alt="$brand_name-logo" width="40px" height="auto">
+   <a href="#" target="_blank">
+      <img src="https://cdn.shadcnstudio.com/ss-assets/logo/logo.png" alt="shadcn-studio-logo" width="40px" height="auto">
    </a>
 </p>
 
 <h1 align="center">
-   <a href="https://shadcnstudio.com" target="_blank" align="center">
-      shadcn/studio
-   </a>
+   Bistro De Elo — Landing Page
 </h1>
 
 <p>
-   <a href="https://shadcnstudio.com" target="_blank">
-      shadcn/studio
-   </a>
-   is an open-source collection of copy-and-paste shadcn components, blocks, and templates - paired with a powerful theme generator & AI Tools to craft, customize, and ship faster. 🚀
+   Sitio web oficial de <strong>Bistro De Elo</strong>, construido con
+   <a href="https://shadcnstudio.com" target="_blank">shadcn/studio</a> + Astro.
+   Un landing page moderno, rápido y responsivo para el negocio gastronómico local ubicado en Calle Mariana Grajales #53, con slogan <em>"Cada bocado, una sonrisa."</em>
 </p>
-
-<a href="https://shadcnstudio.com" target="_blank">
-  <img src="https://cdn.shadcnstudio.com/ss-assets/smm/marketing/shadcn-studio-smm-banner.png" alt="shadcn/studio banner" width="1200">
-</a>
 
 <p>
     <a href="https://github.com/themeselection/shadcn-studio/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License"></a>
@@ -39,41 +32,49 @@
 </a>
 
 <p>
-  Supported by
-  <a href="https://themeselection.com" target="_blank">
-    ThemeSelection
-  </a>
-  , with a commitment to empowering the open-source community.
+  Template base provisto por
+  <a href="https://themeselection.com" target="_blank">ThemeSelection</a>.
 </p>
 
 ---
 
-## Table of Contents 📋
+## Tabla de Contenidos 📋
 
-- [Table of Contents 📋](#table-of-contents-)
+- [Sobre el Negocio 🍔](#sobre-el-negocio-)
 - [Features ✨](#-features)
+- [Secciones del Sitio 📄](#-secciones-del-sitio)
+- [Configuración del Negocio ⚙️](#️-configuración-del-negocio)
 - [Project Structure 🏗️](#-project-structure)
 - [Quick Start 🚀](#-quick-start)
 - [Available Commands 🧞](#-available-commands)
 - [Code Formatting 🎨](#-code-formatting)
-- [Configuration ⚙️](#-configuration)
 - [Deployment 🌐](#-deployment)
 - [Documentation 📚](#documentation-)
 - [Community 🤝](#community-)
 - [Useful Links 🎁](#useful-links-)
-- [Social Media :earth_africa:](#social-media-earth_africa)
 
 ---
 
-## Why should I use shadcn/studio? 💡
+## Sobre el Negocio 🍔
 
-shadcn/ui aims to provide core components with a unique distribution system, allowing developers to copy and paste reusable, customizable UI elements directly into their codebase.
+**Bistro De Elo** es un negocio gastronómico local con identidad propia:
 
-While this approach offers flexibility and control, it comes with some limitations: a lack of diverse component variants examples, limited theme customization options, and limited pre-built blocks. Additionally, its extensive customization options, though powerful, can sometimes feel overwhelming, especially for those seeking a more guided or streamlined experience.
+- 📍 **Dirección:** Calle Mariana Grajales #53, esquina Isabel Rubio y Colón
+- 🎯 **Slogan:** *"Cada bocado, una sonrisa."*
+- 🎨 **Colores de marca:** Verde (`#1a6b3a`) y Amarillo/Dorado (`#f5a623`)
 
-# Shadcn + Astro — Bistro Landing Page
+### Productos y Servicios
 
-This project showcases a complete business website with sections for Header, Hero, Popular Dishes, About Us, Testimonials, New Items, Contact Us and Offers components.
+| Categoría | Descripción |
+|---|---|
+| 🍽️ Comida Criolla | Menús completos para personas y eventos |
+| 🍔 Hamburguesas | Especialidad del negocio |
+| 🥤 Bebidas | Jugos naturales y batidos |
+| 🥛 Productos Lácteos | Variedad de lácteos |
+| 🥩 Productos Cárnicos | Carnes refrigeradas |
+| 🫙 Confituras y Básicos | Productos de primera necesidad |
+
+---
 
 ## ✨ Features
 
@@ -84,6 +85,64 @@ This project showcases a complete business website with sections for Header, Her
 - 🔧 **TypeScript Support** - Type-safe configuration and development
 - 💅 **Prettier Integration** - Automatic code formatting with Tailwind class sorting
 - 🌙 **Tailwind CSS 4** - Latest Tailwind with modern features
+
+---
+
+## 📄 Secciones del Sitio
+
+El landing page de Bistro De Elo incluye las siguientes secciones:
+
+1. **Header** — Navegación con logo y acceso rápido al menú
+2. **Hero** — Portada principal con slogan y llamada a la acción
+3. **Popular Dishes** — Platos más pedidos (hamburguesas, comida criolla)
+4. **About Us** — Historia y valores de Bistro De Elo
+5. **Testimonials** — Opiniones de clientes del grupo de WhatsApp
+6. **New Items** — Novedades del menú y productos nuevos
+7. **Offers** — Promociones y combos especiales
+8. **Contact Us** — Dirección, mapa y enlace de WhatsApp
+
+---
+
+## ⚙️ Configuración del Negocio
+
+Edita `src/consts.ts` para personalizar los datos del negocio:
+
+```typescript
+export const siteConfig = {
+  creatorName: 'Bistro De Elo',
+  demoName: 'Bistro De Elo',
+  templateName: 'Restaurant Landing Page',
+
+  // SEO & Metadata
+  siteTitle: 'Bistro De Elo — Cada bocado, una sonrisa.',
+  siteDescription:
+    'Bistro De Elo: comida criolla, hamburguesas, jugos naturales y productos de primera necesidad. Ubicados en Calle Mariana Grajales #53, esquina Isabel Rubio y Colón.',
+  siteUrl: 'https://bistroDeElo.com', // actualizar con dominio real
+  siteLocale: 'es-CU',
+  siteAuthor: 'Bistro De Elo',
+  siteKeywords: ['bistro', 'restaurante', 'comida criolla', 'hamburguesas', 'jugos naturales', 'catering'],
+  socialImage: '/images/social-preview.png',
+  faviconPath: '/favicon/favicon.ico',
+  themeColor: '#1a6b3a', // verde de la marca
+  twitterHandle: '',
+  analyticsId: '' // opcional
+}
+```
+
+### Datos de Contacto
+
+Actualiza la información de contacto en el componente `ContactUs`:
+
+```typescript
+export const contactInfo = {
+  address: 'Calle Mariana Grajales #53, esquina Isabel Rubio y Colón',
+  whatsapp: '+53XXXXXXXX', // número real del negocio
+  whatsappGroup: 'https://chat.whatsapp.com/XXXXXX', // enlace al grupo
+  hours: 'Lunes a Domingo — consultar disponibilidad',
+}
+```
+
+---
 
 ## 🏗️ Project Structure
 
@@ -124,7 +183,7 @@ shadcn-studio-astro-template/
 │   │
 │   ├── utils/                 # Utility functions
 │   │   └── seo.ts             # SEO helpers
-│   └── consts.ts              # Application constants (SEO)
+│   └── consts.ts              # Application constants (SEO + negocio)
 │
 ├── astro.config.mjs           # Astro configuration
 ├── content.config.ts          # Content collections config
@@ -134,6 +193,8 @@ shadcn-studio-astro-template/
 ├── tsconfig.json              # TypeScript configuration
 └── vercel.json                # Vercel deployment config
 ```
+
+---
 
 ## 🚀 Quick Start
 
@@ -172,9 +233,9 @@ shadcn-studio-astro-template/
    pnpm run preview
    ```
 
-## 🧞 Available Commands
+---
 
-The template comes with several pre-configured scripts to help you with development, building, and maintaining your project. All scripts can be run using your package manager of choice (npm, pnpm, yarn, or bun) from the root of the project.
+## 🧞 Available Commands
 
 | Command       | Action                                                                                                                                 |
 | :------------ | :------------------------------------------------------------------------------------------------------------------------------------- |
@@ -186,14 +247,16 @@ The template comes with several pre-configured scripts to help you with developm
 | `format`      | Formats all files using Prettier to ensure consistent code style.                                                                      |
 | `check-types` | Checks TypeScript types to catch type errors before building or deploying.                                                             |
 
+---
+
 ## 🎨 Code Formatting
 
 This project uses **Prettier** for code formatting with the following features:
 
 - **Automatic formatting on save** in VS Code
-- **Tailwind CSS class sorting** - Classes are automatically sorted in the recommended order
-- **Extra space removal** - Trailing whitespace and extra spaces are removed
-- **Consistent code style** - Enforced across all `.astro`, `.js`, `.ts`, and `.css` files
+- **Tailwind CSS class sorting** — Classes are automatically sorted in the recommended order
+- **Extra space removal** — Trailing whitespace and extra spaces are removed
+- **Consistent code style** — Enforced across all `.astro`, `.js`, `.ts`, and `.css` files
 
 ### Setup
 
@@ -204,9 +267,9 @@ This project uses **Prettier** for code formatting with the following features:
    - EditorConfig for VS Code
 
 2. **Formatting will work automatically** on save thanks to:
-   - `.prettierrc` - Prettier configuration
-   - `.editorconfig` - Editor settings
-   - `.vscode/settings.json` - VS Code workspace settings
+   - `.prettierrc` — Prettier configuration
+   - `.editorconfig` — Editor settings
+   - `.vscode/settings.json` — VS Code workspace settings
 
 3. **Manual formatting:**
 
@@ -214,61 +277,7 @@ This project uses **Prettier** for code formatting with the following features:
    pnpm run format        # Format all files
    ```
 
-## ⚙️ Configuration
-
-Edit `src/consts.ts` to customize your site:
-
-```typescript
-export const siteConfig = {
-  creatorName: 'Shadcn Studio',
-  demoName: 'Bistro',
-  templateName: 'Restaurant Landing Page'
-  // ... more settings
-}
-```
-
-### 🔍 SEO & Site Configuration
-
-Configure the site's SEO and global metadata in `src/consts.ts`. These settings power the `HeadSeo.astro` layout and `seo.ts` helpers so pages have correct titles, descriptions, and social previews.
-
-Recommended fields:
-
-- `siteTitle`: The site-wide default title.
-- `siteDescription`: Default meta description for pages.
-- `siteUrl`: The canonical base URL for building absolute links.
-- `siteLocale`: Locale string used for html/lang and Open Graph (e.g. `en-US`).
-- `siteAuthor`: Default author/creator name.
-- `siteKeywords`: Array of SEO keywords.
-- `socialImage`: Path to the default social preview image (OG/Twitter card).
-- `faviconPath`: Path to the favicon in `/public`.
-- `themeColor`: Theme color meta for browsers and PWA.
-- `twitterHandle`: Official Twitter/X handle for site cards.
-- `analyticsId`: Optional analytics measurement id (Google Analytics, Plausible, etc.).
-
-Example `siteConfig` with SEO fields:
-
-```typescript
-// Example SEO & site settings — edit src/consts.ts
-export const siteConfig = {
-  siteTitle: 'Bistro — Restaurant Landing Page',
-  siteDescription:
-    'Enjoy fresh ingredients, thoughtfully prepared meals, and a welcoming space designed for memorable moments. Experience bistro dining made simple and delicious.',
-  siteUrl: 'https://example.com',
-  siteLocale: 'en-US',
-  siteAuthor: 'Shadcn Studio',
-  siteKeywords: ['bistro', 'restaurant', 'landing page', 'astro', 'shadcn'],
-  socialImage: '/images/social-preview.png',
-  faviconPath: '/favicon/favicon.ico',
-  themeColor: '#0ea5e9',
-  twitterHandle: '@ShadcnStudio',
-  analyticsId: '' // optional
-}
-```
-
-Tips:
-
-- Keep `siteUrl` consistent with your deployed domain to ensure correct canonical and Open Graph URLs.
-- Place social preview images in `public/images` and reference them with absolute paths (e.g. `/images/social-preview.png`).
+---
 
 ## 🌐 Deployment
 
@@ -281,16 +290,22 @@ The production build creates static files with relative asset paths, making it e
 
 Simply upload the contents of the `dist/` folder after running `pnpm run build`.
 
+---
+
 ## Documentation 📚
 
-For comprehensive documentation, please visit [shadcn/studio documentation](https://shadcnstudio.com/docs/getting-started/shadcn-studio-template-astro).
+For comprehensive documentation on the base template, visit [shadcn/studio documentation](https://shadcnstudio.com/docs/getting-started/shadcn-studio-template-astro).
+
+---
 
 ## Community 🤝
 
-Join the shadcn/studio community to discuss the library, ask questions, and share your experiences:
+Join the shadcn/studio community:
 
-- 🐦 [Follow us on Twitter](https://x.com/ShadCNStudio)
-- 🎮 [Join us on Discord](https://discord.com/invite/kBHkY7DekX)
+- 🐦 [Follow on Twitter](https://x.com/ShadCNStudio)
+- 🎮 [Join Discord](https://discord.com/invite/kBHkY7DekX)
+
+---
 
 ## Useful Links 🎁
 
@@ -302,9 +317,3 @@ Join the shadcn/studio community to discuss the library, ask questions, and shar
 - [Shadcn IDE Extension](https://shadcnstudio.com/ide-extension)
 - [Shadcn Components](https://shadcnstudio.com/components)
 - [Shadcn Figma to Code](https://shadcnstudio.com/figma-plugin)
-
-## Social Media :earth_africa:
-
-- [x](https://x.com/ShadcnStudio)
-- [Discord](https://discord.com/invite/kBHkY7DekX)
-- [YouTube](https://www.youtube.com/@themeselection)

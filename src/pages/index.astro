@@ -15,34 +15,35 @@ import { testimonials } from '@/assets/data/testimonials'
 import { newItems } from '@/assets/data/new-items'
 import { contactInfo } from '@/assets/data/contact-us'
 import { GalleryImage } from '@/assets/data/offers'
-
-// Page-specific SEO configuration
-const pageTitle = ''
-const pageDescription =
-  'Enjoy fresh ingredients, thoughtfully prepared meals, and a welcoming space designed for memorable moments. Experience bistro dining made simple and delicious.'
-const pageKeywords = 'astro template, shadcn ui, tailwind css, react components, restaurant'
+import { SITE_TITLE, SITE_DESCRIPTION } from '@/consts'
 
 // Structured data for better SEO
 const schema = {
   '@context': 'https://schema.org',
-  '@type': 'WebApplication',
-  name: 'Bistro - Restaurant Landing Page',
-  description: pageDescription,
-  applicationCategory: 'DeveloperApplication',
-  operatingSystem: 'Any',
-  offers: {
-    '@type': 'Offer',
-    price: '0',
-    priceCurrency: 'USD'
+  '@type': 'Restaurant',
+  name: 'Bistro De Elo',
+  description: SITE_DESCRIPTION,
+  image: '/images/social-preview.png',
+  telephone: '+53XXXXXXXX',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'Calle Mariana Grajales #53, esquina Isabel Rubio y Colón',
+    addressLocality: 'Santiago de Cuba',
+    addressCountry: 'CU'
   },
-  author: {
-    '@type': 'Organization',
-    name: 'Your Company Name'
-  }
+  servesCuisine: ['Comida criolla cubana', 'Hamburguesas', 'Jugos naturales'],
+  priceRange: '$$',
+  url: 'https://bistroDeElo.com',
+  openingHours: 'Mo-Su'
 }
 ---
 
-<Layout title={pageTitle} description={pageDescription} keywords={pageKeywords} schema={schema}>
+<Layout
+  title={SITE_TITLE}
+  description={SITE_DESCRIPTION}
+  keywords="bistro, restaurante, comida criolla, hamburguesas, jugos naturales, catering, santiago de cuba"
+  schema={schema}
+>
   <HeroSectionPage menudata={menudata} client:load />
   <PopularDishes popularDishes={popularDishes} client:load />
   <AboutUs stats={stats} />

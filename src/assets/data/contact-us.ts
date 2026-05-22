@@ -2,23 +2,23 @@ import { Clock8Icon, MapPinIcon, Mail, PhoneIcon } from 'lucide-react'
 
 export const contactInfo = [
   {
-    title: 'Open Hours',
+    title: 'Horario',
     icon: Clock8Icon,
-    description: 'Monday-Friday\n8:00 am to 5:00 pm'
+    description: 'Lunes a Domingo\nConsultar disponibilidad'
   },
   {
-    title: 'Our Address',
+    title: 'Dirección',
     icon: MapPinIcon,
-    description: '802 Perston Rd,Maine\n96812, USA'
+    description: 'Calle Mariana Grajales #53\nEsquina Isabel Rubio y Colón'
   },
   {
-    title: 'Email',
+    title: 'Correo',
     icon: Mail,
-    description: 'info@seliziakitchen.com'
+    description: 'bistrodeelo@email.com'
   },
   {
-    title: 'Phone',
+    title: 'Teléfono',
     icon: PhoneIcon,
-    description: '+1 (123) 456-7890'
+    description: '+53 XX XXX XXXX\nWhatsApp disponible'
   }
 ]

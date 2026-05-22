@@ -20,28 +20,28 @@ const ContactUs = ({ contactInfo }: { contactInfo: ContactInfo }) => {
         {/* Header */}
         <div className='mx-auto mb-12 flex max-w-2xl flex-col items-center justify-center space-y-4 text-center sm:mb-16 lg:mb-24'>
           <Badge variant='outline' className='text-sm font-normal'>
-            Contact Us
+            Contáctanos
           </Badge>
-          <h2 className='text-2xl font-semibold md:text-3xl lg:text-4xl'>Get in touch with us </h2>
+          <h2 className='text-2xl font-semibold md:text-3xl lg:text-4xl'>Ponte en contacto con nosotros </h2>
           <p className='text-muted-foreground text-xl'>
-            We eagerly look forward to warmly welcoming you very soon to our event. It promises to be a memorable
-            experience filled with exciting activities.
+            Con gusto te atenderemos para cualquier consulta, pedido o reservación. También puedes contactarnos
+            directamente por WhatsApp.
           </p>
         </div>
 
         <div className='grid items-center gap-12 lg:grid-cols-2'>
           <img
             src='/images/contact-us-01.webp'
-            alt='Contact illustration'
+            alt='Ilustración de contacto'
             className='size-full object-cover max-lg:max-h-70'
             loading='lazy'
           />
 
           <div>
-            <h3 className='mb-2 text-2xl'>We&apos;re here to serve you</h3>
+            <h3 className='mb-2 text-2xl'>Estamos para servirte</h3>
             <p className='text-muted-foreground mb-10 text-lg'>
-              We would love to hear from you, Whether you have a question, need a reservation, or want to learn more
-              about our offerings, we&apos;re here to assist.
+              Puedes contactarnos a través de WhatsApp, visitarnos en nuestra ubicación o enviarnos un correo. ¡Te
+              esperamos con los brazos abiertos para darte una sonrisa en cada bocado!
             </p>
 
             {/* Contact Info Grid */}

@@ -1,26 +1,26 @@
 export const newItems = [
   {
     img: '/images/new-items/new-items-01.webp',
-    alt: 'Lemon Herb Grilled Salmon',
-    title: 'Lemon Herb Grilled Salmon',
+    alt: 'Bistec de Pollo',
+    title: 'Bistec de Pollo',
     description:
-      'Delight in the perfect balance of zesty lemon and savoury herbs, beautifully paired with a fresh garden salad.',
+      'Tierno bistec de pollo marinado en especias criollas, acompañado de arroz, congrí y plátanos maduros.',
     blogLink: '#'
   },
   {
     img: '/images/new-items/new-items-02.webp',
-    alt: 'Spicy Mango Chicken',
-    title: 'Spicy Mango Chicken',
+    alt: 'Picadillo a la Habanera',
+    title: 'Picadillo a la Habanera',
     description:
-      'A sweet and spicy fusion of tender chicken breast combined with ripe mango and a delightful chili kick.',
+      'Carne de res sazonada con ajo, cebolla, pimiento y especias, acompañada de arroz blanco y plátano maduro.',
     blogLink: '#'
   },
   {
     img: '/images/new-items/new-items-03.webp',
-    alt: 'Vegetarian Tempeh Stir Fry',
-    title: 'Vegetarian Tempeh Stir Fry',
+    alt: 'Batido de Frutas',
+    title: 'Batido de Frutas Tropicales',
     description:
-      'A healthy, hearty and nutritious dish featuring tempeh, fresh seasonal vegetables, and a light, flavourful sauce.',
+      'Refrescante batido de frutas tropicales frescas. Opciones de mango, guayaba, parcha o piña.',
     blogLink: '#'
   }
 ]

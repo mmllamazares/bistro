@@ -19,12 +19,12 @@ const NewItems = ({ newItems }: { newItems: NewItem }) => {
         {/* Header */}
         <div className='mx-auto mb-12 flex max-w-2xl flex-col items-center justify-center space-y-4 text-center sm:mb-16 lg:mb-24'>
           <Badge variant='outline' className='text-sm font-normal'>
-            New Items
+            Novedades
           </Badge>
-          <h2 className='text-2xl font-semibold md:text-3xl lg:text-4xl'>Fresh menu items</h2>
+          <h2 className='text-2xl font-semibold md:text-3xl lg:text-4xl'>Platos nuevos</h2>
           <p className='text-muted-foreground text-xl'>
-            Explore our most recent additions to the menu. Each dish is designed to delight your taste buds and provide
-            a memorable dining experience.
+            Explora nuestras incorporaciones más recientes al menú. Cada plato está diseñado para deleitar tu paladar y
+            brindarte una experiencia culinaria memorable.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ const NewItems = ({ newItems }: { newItems: NewItem }) => {
                   asChild
                 >
                   <a href={item.blogLink}>
-                    Full menu
+                    Ver menú completo
                     <ArrowRightIcon className='transition-transform duration-200 group-hover:translate-x-0.5' />
                   </a>
                 </Button>

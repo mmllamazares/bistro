@@ -1,46 +1,40 @@
 // Site Configuration
 // Centralized configuration for site metadata, SEO, and branding
 
-export const SITE_TITLE = 'Demo: Bistro - Restaurant Landing Page | Shadcn Studio'
+export const SITE_TITLE = 'Bistro De Elo — Cada bocado, una sonrisa.'
 export const SITE_DESCRIPTION =
-  'Enjoy fresh ingredients, thoughtfully prepared meals, and a welcoming space designed for memorable moments. Experience bistro dining made simple and delicious.'
+  'Bistro De Elo: comida criolla, hamburguesas, jugos naturales y productos de primera necesidad. Ubicados en Calle Mariana Grajales #53, esquina Isabel Rubio y Colón.'
 
-export const GITHUB_URL = 'https://github.com/yourusername/shadcn-astro-bistro-landing-page'
-export const SITE_URL = 'https://shadcnstudio.com/'
+export const GITHUB_URL = 'https://github.com/bistro-de-elo/bistro-landing-page'
+export const SITE_URL = 'https://bistroDeElo.com'
 
 export const SITE_METADATA = {
   title: {
-    default: 'Demo: Bistro - Restaurant Landing Page | Shadcn Studio'
+    default: 'Bistro De Elo — Cada bocado, una sonrisa.'
   },
   description:
-    'Enjoy fresh ingredients, thoughtfully prepared meals, and a welcoming space designed for memorable moments. Experience bistro dining made simple and delicious.',
+    'Bistro De Elo: comida criolla, hamburguesas, jugos naturales y productos de primera necesidad. Ubicados en Calle Mariana Grajales #53, esquina Isabel Rubio y Colón.',
   keywords: [
-    'Astro',
-    'astro template',
-    'astro theme',
-    'astro starter',
-    'shadcn template',
-    'shadcn ui',
-    'shadcn/ui components',
-    'tailwind template',
-    'tailwind css',
-    'react components',
-    'SEO optimized',
-    'web development',
-    'static site generator',
-    'modern web apps',
-    'performance',
-    'typescript'
+    'bistro',
+    'restaurante',
+    'comida criolla',
+    'hamburguesas',
+    'jugos naturales',
+    'catering',
+    'comida cubana',
+    'bistro de elo',
+    'calle mariana grajales',
+    'productos de primera necesidad'
   ],
-  authors: [{ name: 'shadcn Studio', url: SITE_URL }],
-  creator: 'shadcn Studio',
-  publisher: 'shadcn Studio',
+  authors: [{ name: 'Bistro De Elo', url: SITE_URL }],
+  creator: 'Bistro De Elo',
+  publisher: 'Bistro De Elo',
   robots: {
     index: true,
     follow: true
   },
-  language: 'en-US',
-  locale: 'en_US',
+  language: 'es-CU',
+  locale: 'es_CU',
   icons: {
     icon: [
       { url: '/favicon/favicon.ico', sizes: '48x48' },
@@ -54,63 +48,63 @@ export const SITE_METADATA = {
   },
   openGraph: {
     type: 'website',
-    locale: 'en_US',
-    siteName: 'Bistro',
-    title: 'Demo: Bistro - Restaurant Landing Page | Shadcn Studio',
+    locale: 'es_CU',
+    siteName: 'Bistro De Elo',
+    title: 'Bistro De Elo — Cada bocado, una sonrisa.',
     description:
-      'Enjoy fresh ingredients, thoughtfully prepared meals, and a welcoming space designed for memorable moments. Experience bistro dining made simple and delicious.',
+      'Bistro De Elo: comida criolla, hamburguesas, jugos naturales y productos de primera necesidad.',
     images: [
       {
-        url: '/images/og-image.png',
+        url: '/images/social-preview.png',
         width: 1200,
         height: 630,
-        alt: 'Demo: Bistro - Restaurant Landing Page | Shadcn Studio',
+        alt: 'Bistro De Elo — Restaurante de comida criolla',
         type: 'image/png'
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@shadcnstudio',
-    creator: '@shadcnstudio',
-    title: 'Demo: Bistro - Restaurant Landing Page | Shadcn Studio',
+    site: '',
+    creator: '',
+    title: 'Bistro De Elo — Cada bocado, una sonrisa.',
     description:
-      'Enjoy fresh ingredients, thoughtfully prepared meals, and a welcoming space designed for memorable moments. Experience bistro dining made simple and delicious.',
-    images: ['/images/og-image.png']
+      'Bistro De Elo: comida criolla, hamburguesas, jugos naturales y productos de primera necesidad.',
+    images: ['/images/social-preview.png']
   },
   verification: {
-    google: '', // Add your Google verification code
-    yandex: '', // Add your Yandex verification code
-    bing: '' // Add your Bing verification code
+    google: '',
+    yandex: '',
+    bing: ''
   }
 }
 
 // Social media links
 export const SOCIAL_LINKS = {
   github: GITHUB_URL,
-  twitter: 'https://twitter.com/shadcnstudio',
-  linkedin: 'https://linkedin.com/company/shadcnstudio',
-  discord: 'https://discord.gg/shadcnstudio'
+  twitter: '',
+  linkedin: '',
+  discord: ''
 }
 
 // Company information for structured data
 export const COMPANY_INFO = {
-  name: 'shadcn Studio',
-  legalName: 'shadcn Studio Inc.',
+  name: 'Bistro De Elo',
+  legalName: 'Bistro De Elo',
   url: SITE_URL,
   logo: `/images/site-logo.png`,
   foundingDate: '2024',
   address: {
-    streetAddress: '123 Web Dev Street',
-    addressLocality: 'San Francisco',
-    addressRegion: 'CA',
-    postalCode: '94102',
-    addressCountry: 'US'
+    streetAddress: 'Calle Mariana Grajales #53, esquina Isabel Rubio y Colón',
+    addressLocality: 'Santiago de Cuba',
+    addressRegion: 'Santiago de Cuba',
+    postalCode: '',
+    addressCountry: 'CU'
   },
   contactPoint: {
-    telephone: '+1-555-123-4567',
+    telephone: '+53XXXXXXXX',
     contactType: 'customer support',
-    email: 'support@shadcnstudio.com'
+    email: ''
   },
-  sameAs: Object.values(SOCIAL_LINKS)
+  sameAs: Object.values(SOCIAL_LINKS).filter(Boolean)
 }

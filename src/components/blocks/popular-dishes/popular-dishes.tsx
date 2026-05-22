@@ -16,12 +16,12 @@ const PopularDishes = ({ popularDishes }: { popularDishes: PopularDish }) => {
       <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
         <div className='mx-auto mb-12 flex max-w-2xl flex-col items-center justify-center space-y-4 text-center sm:mb-16 lg:mb-24'>
           <Badge variant='outline' className='text-sm font-normal'>
-            Popular Dishes
+            Platos Populares
           </Badge>
-          <h2 className='text-2xl font-semibold md:text-3xl lg:text-4xl'>Favorite meals</h2>
+          <h2 className='text-2xl font-semibold md:text-3xl lg:text-4xl'>Platos favoritos</h2>
           <p className='text-muted-foreground text-xl'>
-            Discover our most loved creations crafted with passion, fresh ingredients, and bold flavours that keep
-            guests coming back for more.
+            Descubre nuestros platillos más queridos, elaborados con pasión, ingredientes frescos y sabores criollos que
+            hacen que nuestros clientes vuelvan por más.
           </p>
         </div>
 
