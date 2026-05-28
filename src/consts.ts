@@ -100,7 +100,7 @@ export const COMPANY_INFO = {
     addressCountry: 'CU'
   },
   contactPoint: {
-    telephone: '+53XXXXXXXX',
+    telephone: '+5358135325',
     contactType: 'customer support',
     email: ''
   },

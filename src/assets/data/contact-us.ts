@@ -19,6 +19,6 @@ export const contactInfo = [
   {
     title: 'Teléfono',
     icon: PhoneIcon,
-    description: '+53 XX XXX XXXX\nWhatsApp disponible'
+    description: '+5358135325\nWhatsApp disponible'
   }
 ]
