@@ -11,7 +11,7 @@
 </h1>
 
 <p>
-   Sitio web oficial de <strong>Bistro De Elo</strong>, construido con
+   Sitio web oficial de <strong>Bistro de Elo</strong>, construido con
    <a href="https://shadcnstudio.com" target="_blank">shadcn/studio</a> + Astro.
    Un landing page moderno, rápido y responsivo para el negocio gastronómico local ubicado en Calle Mariana Grajales #53, con slogan <em>"Cada bocado, una sonrisa."</em>
 </p>
@@ -60,19 +60,19 @@
 **Bistro De Elo** es un negocio gastronómico local con identidad propia:
 
 - 📍 **Dirección:** Calle Mariana Grajales #53, esquina Isabel Rubio y Colón
-- 🎯 **Slogan:** *"Cada bocado, una sonrisa."*
+- 🎯 **Slogan:** _"Cada bocado, una sonrisa."_
 - 🎨 **Colores de marca:** Verde (`#1a6b3a`) y Amarillo/Dorado (`#f5a623`)
 
 ### Productos y Servicios
 
-| Categoría | Descripción |
-|---|---|
-| 🍽️ Comida Criolla | Menús completos para personas y eventos |
-| 🍔 Hamburguesas | Especialidad del negocio |
-| 🥤 Bebidas | Jugos naturales y batidos |
-| 🥛 Productos Lácteos | Variedad de lácteos |
-| 🥩 Productos Cárnicos | Carnes refrigeradas |
-| 🫙 Confituras y Básicos | Productos de primera necesidad |
+| Categoría               | Descripción                             |
+| ----------------------- | --------------------------------------- |
+| 🍽️ Comida Criolla       | Menús completos para personas y eventos |
+| 🍔 Hamburguesas         | Especialidad del negocio                |
+| 🥤 Bebidas              | Jugos naturales y batidos               |
+| 🥛 Productos Lácteos    | Variedad de lácteos                     |
+| 🥩 Productos Cárnicos   | Carnes refrigeradas                     |
+| 🫙 Confituras y Básicos | Productos de primera necesidad          |
 
 ---
 
@@ -95,7 +95,7 @@ El landing page de Bistro De Elo incluye las siguientes secciones:
 1. **Header** — Navegación con logo y acceso rápido al menú
 2. **Hero** — Portada principal con slogan y llamada a la acción
 3. **Popular Dishes** — Platos más pedidos (hamburguesas, comida criolla)
-4. **About Us** — Historia y valores de Bistro De Elo
+4. **About Us** — Historia y valores de Bistro de Elo
 5. **Testimonials** — Opiniones de clientes del grupo de WhatsApp
 6. **New Items** — Novedades del menú y productos nuevos
 7. **Offers** — Promociones y combos especiales
@@ -109,17 +109,17 @@ Edita `src/consts.ts` para personalizar los datos del negocio:
 
 ```typescript
 export const siteConfig = {
-  creatorName: 'Bistro De Elo',
-  demoName: 'Bistro De Elo',
+  creatorName: 'Bistro de Elo',
+  demoName: 'Bistro de Elo',
   templateName: 'Restaurant Landing Page',
 
   // SEO & Metadata
-  siteTitle: 'Bistro De Elo — Cada bocado, una sonrisa.',
+  siteTitle: 'Bistro de Elo — Cada bocado, una sonrisa.',
   siteDescription:
-    'Bistro De Elo: comida criolla, hamburguesas, jugos naturales y productos de primera necesidad. Ubicados en Calle Mariana Grajales #53, esquina Isabel Rubio y Colón.',
+    'Bistro de Elo: comida criolla, hamburguesas, jugos naturales y productos de primera necesidad. Ubicados en Calle Mariana Grajales #53, esquina Isabel Rubio y Colón.',
   siteUrl: 'https://bistroDeElo.com', // actualizar con dominio real
   siteLocale: 'es-CU',
-  siteAuthor: 'Bistro De Elo',
+  siteAuthor: 'Bistro de Elo',
   siteKeywords: ['bistro', 'restaurante', 'comida criolla', 'hamburguesas', 'jugos naturales', 'catering'],
   socialImage: '/images/social-preview.png',
   faviconPath: '/favicon/favicon.ico',
@@ -138,7 +138,7 @@ export const contactInfo = {
   address: 'Calle Mariana Grajales #53, esquina Isabel Rubio y Colón',
   whatsapp: '+53XXXXXXXX', // número real del negocio
   whatsappGroup: 'https://chat.whatsapp.com/XXXXXX', // enlace al grupo
-  hours: 'Lunes a Domingo — consultar disponibilidad',
+  hours: 'Lunes a Domingo — consultar disponibilidad'
 }
 ```
 

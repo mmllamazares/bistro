@@ -2,7 +2,7 @@
 
 ## Descripción del Negocio
 
-**Bistro De Elo** es un negocio gastronómico local con slogan *"Cada bocado, una sonrisa."*
+**Bistro de Elo** es un negocio gastronómico local con slogan _"Cada bocado, una sonrisa."_
 Combina restaurante de comida criolla, servicio de catering para eventos y venta de productos de primera necesidad.
 
 - **Dirección:** Calle Mariana Grajales #53, esquina Isabel Rubio y Colón
@@ -10,6 +10,7 @@ Combina restaurante de comida criolla, servicio de catering para eventos y venta
 - **Dominio:** https://bistroDeElo.com _(actualizar cuando esté disponible)_
 
 ### Identidad de Marca
+
 - **Color primario:** `#1a6b3a` (verde)
 - **Color secundario:** `#f5a623` (amarillo/dorado)
 - **Locale:** `es-CU`
@@ -54,13 +55,13 @@ pnpm check-types    # tsc --noEmit (verifica sin emitir)
 
 ## Archivos Clave para Agentes
 
-| Archivo | Propósito |
-|---|---|
-| `src/consts.ts` | **Configuración central del negocio.** SEO, metadata, datos de contacto y branding. Cualquier cambio de texto o datos del negocio debe realizarse aquí. |
-| `src/styles/global.css` | Variables de color de marca y estilos globales (Tailwind v4). |
-| `astro.config.mjs` | Configuración de Astro (includes sitemap, react, mdx, tailwindcss). |
-| `components.json` | Configuración de shadcn/ui. |
-| `vercel.json` | Configuración de deploy y headers de seguridad en Vercel. |
+| Archivo                 | Propósito                                                                                                                                               |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `src/consts.ts`         | **Configuración central del negocio.** SEO, metadata, datos de contacto y branding. Cualquier cambio de texto o datos del negocio debe realizarse aquí. |
+| `src/styles/global.css` | Variables de color de marca y estilos globales (Tailwind v4).                                                                                           |
+| `astro.config.mjs`      | Configuración de Astro (includes sitemap, react, mdx, tailwindcss).                                                                                     |
+| `components.json`       | Configuración de shadcn/ui.                                                                                                                             |
+| `vercel.json`           | Configuración de deploy y headers de seguridad en Vercel.                                                                                               |
 
 ## Notas Operativas
 

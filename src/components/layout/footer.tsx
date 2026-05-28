@@ -2,7 +2,6 @@ import { FacebookIcon, InstagramIcon, TwitterIcon, YoutubeIcon } from 'lucide-re
 
 import { Separator } from '@/components/ui/separator'
 
-import BistroLogo from '@/assets/svg/bistro-logo'
 import { footerData } from '@/assets/data/footer'
 
 const Footer = () => {
@@ -11,8 +10,14 @@ const Footer = () => {
       <div className='mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-4 max-md:flex-col sm:px-6 sm:py-6 md:gap-6 md:py-8'>
         <a href='/#home'>
           <div className='flex items-center gap-3'>
-            <BistroLogo className='gap-3' />
-            <span className='text-primary text-[20px] font-semibold'>Bistro De Elo</span>
+            <img
+              src='/favicon/android-chrome-512x512.png'
+              alt='Bistro De Elo'
+              width={32}
+              height={32}
+              className='rounded-full object-contain'
+            />
+            <span className='text-primary text-[20px] font-semibold'>Bistro de Elo</span>
           </div>
         </a>
 
@@ -50,9 +55,9 @@ const Footer = () => {
         <p className='text-muted-foreground text-center text-balance'>
           {`©${new Date().getFullYear()}`}{' '}
           <a href='/#home' className='hover:underline'>
-            Bistro De Elo
+            Bistro de Elo
           </a>
-          . Todos los derechos reservados. Hecho con ❤️ para nuestra comunidad.
+          . Todos los derechos reservados. Desarrollado por mmllamazares@gmail.com
         </p>
       </div>
     </footer>

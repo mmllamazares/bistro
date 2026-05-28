@@ -23,9 +23,11 @@ const AboutUs = ({ stats }: { stats: Stat[] }) => {
           <Badge variant='outline' className='text-sm font-normal'>
             Nosotros
           </Badge>
-          <h2 className='text-2xl font-semibold tracking-tight md:text-3xl lg:text-4xl'>Nuestra historia y servicios</h2>
+          <h2 className='text-2xl font-semibold tracking-tight md:text-3xl lg:text-4xl'>
+            Nuestra historia y servicios
+          </h2>
           <p className='text-muted-foreground text-xl'>
-            En Bistro De Elo, cada plato cuenta una historia. Con años de dedicación y pasión por la comida criolla
+            En Bistro de Elo, cada plato cuenta una historia. Con años de dedicación y pasión por la comida criolla
             cubana, hemos transformado el arte de cocinar en una experiencia inolvidable para nuestra comunidad.
           </p>
           <Button

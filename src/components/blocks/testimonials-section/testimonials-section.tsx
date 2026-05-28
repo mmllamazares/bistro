@@ -40,7 +40,7 @@ const TestimonialsComponent = ({ testimonials }: TestimonialsComponentProps) => 
           </h2>
 
           <p className='text-muted-foreground text-xl'>
-            Esto es lo que dicen nuestros clientes sobre Bistro De Elo y el servicio que ofrecemos.
+            Esto es lo que dicen nuestros clientes sobre Bistro de Elo y el servicio que ofrecemos.
           </p>
 
           <div className='flex items-center gap-4'>

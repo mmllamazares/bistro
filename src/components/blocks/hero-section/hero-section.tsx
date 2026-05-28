@@ -98,7 +98,7 @@ const HeroSection = ({ menudata }: { menudata: MenuData[] }) => {
             </h1>
 
             <p className='text-muted-foreground max-w-xl text-xl max-lg:text-center'>
-              Bienvenido a Bistro De Elo, donde la pasión se encuentra en el plato. Desde sabrosos aperitivos hasta el
+              Bienvenido a Bistro de Elo, donde la pasión se encuentra en el plato. Desde sabrosos aperitivos hasta el
               postre, cada plato está elaborado para deleitar tus sentidos.
             </p>
 

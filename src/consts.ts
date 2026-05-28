@@ -1,19 +1,19 @@
 // Site Configuration
 // Centralized configuration for site metadata, SEO, and branding
 
-export const SITE_TITLE = 'Bistro De Elo — Cada bocado, una sonrisa.'
+export const SITE_TITLE = 'Bistro de Elo — Cada bocado, una sonrisa.'
 export const SITE_DESCRIPTION =
-  'Bistro De Elo: comida criolla, hamburguesas, jugos naturales y productos de primera necesidad. Ubicados en Calle Mariana Grajales #53, esquina Isabel Rubio y Colón.'
+  'Bistro de Elo: comida criolla, hamburguesas, jugos naturales y productos de primera necesidad. Ubicados en Calle Mariana Grajales #53, esquina Isabel Rubio y Colón.'
 
 export const GITHUB_URL = 'https://github.com/bistro-de-elo/bistro-landing-page'
 export const SITE_URL = 'https://bistroDeElo.com'
 
 export const SITE_METADATA = {
   title: {
-    default: 'Bistro De Elo — Cada bocado, una sonrisa.'
+    default: 'Bistro de Elo — Cada bocado, una sonrisa.'
   },
   description:
-    'Bistro De Elo: comida criolla, hamburguesas, jugos naturales y productos de primera necesidad. Ubicados en Calle Mariana Grajales #53, esquina Isabel Rubio y Colón.',
+    'Bistro de Elo: comida criolla, hamburguesas, jugos naturales y productos de primera necesidad. Ubicados en Calle Mariana Grajales #53, esquina Isabel Rubio y Colón.',
   keywords: [
     'bistro',
     'restaurante',
@@ -26,9 +26,9 @@ export const SITE_METADATA = {
     'calle mariana grajales',
     'productos de primera necesidad'
   ],
-  authors: [{ name: 'Bistro De Elo', url: SITE_URL }],
-  creator: 'Bistro De Elo',
-  publisher: 'Bistro De Elo',
+  authors: [{ name: 'Bistro de Elo', url: SITE_URL }],
+  creator: 'Bistro de Elo',
+  publisher: 'Bistro de Elo',
   robots: {
     index: true,
     follow: true
@@ -49,16 +49,15 @@ export const SITE_METADATA = {
   openGraph: {
     type: 'website',
     locale: 'es_CU',
-    siteName: 'Bistro De Elo',
-    title: 'Bistro De Elo — Cada bocado, una sonrisa.',
-    description:
-      'Bistro De Elo: comida criolla, hamburguesas, jugos naturales y productos de primera necesidad.',
+    siteName: 'Bistro de Elo',
+    title: 'Bistro de Elo — Cada bocado, una sonrisa.',
+    description: 'Bistro de Elo: comida criolla, hamburguesas, jugos naturales y productos de primera necesidad.',
     images: [
       {
         url: '/images/social-preview.png',
         width: 1200,
         height: 630,
-        alt: 'Bistro De Elo — Restaurante de comida criolla',
+        alt: 'Bistro de Elo — Restaurante de comida criolla',
         type: 'image/png'
       }
     ]
@@ -67,9 +66,8 @@ export const SITE_METADATA = {
     card: 'summary_large_image',
     site: '',
     creator: '',
-    title: 'Bistro De Elo — Cada bocado, una sonrisa.',
-    description:
-      'Bistro De Elo: comida criolla, hamburguesas, jugos naturales y productos de primera necesidad.',
+    title: 'Bistro de Elo — Cada bocado, una sonrisa.',
+    description: 'Bistro de Elo: comida criolla, hamburguesas, jugos naturales y productos de primera necesidad.',
     images: ['/images/social-preview.png']
   },
   verification: {
@@ -89,8 +87,8 @@ export const SOCIAL_LINKS = {
 
 // Company information for structured data
 export const COMPANY_INFO = {
-  name: 'Bistro De Elo',
-  legalName: 'Bistro De Elo',
+  name: 'Bistro de Elo',
+  legalName: 'Bistro de Elo',
   url: SITE_URL,
   logo: `/images/site-logo.png`,
   foundingDate: '2024',

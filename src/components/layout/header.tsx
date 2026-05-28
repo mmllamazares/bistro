@@ -14,8 +14,6 @@ import type { NavigationSection } from '@/components/blocks/menu-navigation'
 
 import { cn } from '@/lib/utils'
 
-import BistroLogo from '@/assets/svg/bistro-logo'
-
 // Inline active section hook
 const useActiveSection = (sectionIds: string[]) => {
   const [activeSection, setActiveSection] = useState<string>('')
@@ -98,8 +96,14 @@ const Header = ({ navigationData, className }: HeaderProps) => {
       <div className='mx-auto flex h-full max-w-7xl items-center justify-between gap-6 px-4 sm:px-6 lg:px-8'>
         {/* Logo */}
         <a href='/#home' className='flex items-center gap-3'>
-          <BistroLogo />
-          <span className='text-primary text-[20px] font-semibold'>Bistro De Elo</span>
+          <img
+            src='/favicon/android-chrome-512x512.png'
+            alt='Bistro De Elo'
+            width={32}
+            height={32}
+            className='rounded-full object-contain'
+          />
+          <span className='text-primary text-[20px] font-semibold'>Bistro de Elo</span>
         </a>
 
         {/* Navigation */}
